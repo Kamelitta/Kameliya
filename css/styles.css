@@ -6,42 +6,48 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+.fst-normal {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #FFE4F7;
+    color: #4E011A;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #FFEEF6;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+    background-color: #E4F6FE;
 }
 
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
-	font-weight: 800;
-	display: inline-block;
-	width: 1em;
-	margin-left: -1em;
+    content: ">";
+    font-weight: 800;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    color: #000000;	
 }
 
 .biography-details li::before {
-	color: #EE7623;
 }
 
 .biography-details li, .skill-list li {
 	padding-left: 1em;
 }
+
 
 /* Styles for contact icons */
 
