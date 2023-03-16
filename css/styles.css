@@ -6,15 +6,24 @@
 /* Styles for the body */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Philosopher', sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+.mm {
+	font-family: 'Philosopher', sans-serif;
+	color:#4E011A;
+}
+
+.line {
+	color:#4E011A;
+}
+
 .fst-normal {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .resume-header {

@@ -18,6 +18,10 @@
 	  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;1,200&family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+	  
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap" rel="stylesheet">
 
     <!-- Links to our additional CSS styles -->
     <link rel="stylesheet" href="css/styles.css">
@@ -61,7 +65,7 @@
         <!--
           A container to wrap around your name and tagline. Full-width at small size, then columns of increasing size.
         -->
-        <div class="col-12 col-sm-10 col-md-9 col-lg-10 my-3 header-content">
+        <div class="col-12 col-sm-10 col-md-9 col-lg-9 my-3 header-content">
           <h1 class="fw-bolder">Kameliya Stoyanova</h1>
           <h5 class="fst-italic tagline"><strong>UX Designer and Marketing Manager.</strong></h5>
 		<h5 class="fst-normal" style="color:#000000"><i>Passionate woman who is looking for new opportunities, ways to gain more knowledge and experience. I am creative by heart and enjoying using my ideas to enspire people and help them to solve their marketing or design problems.</i></h5>
@@ -78,7 +82,7 @@
         <!--
           <main> is another semantic element. It will contain biographical info (professional experience and education).
         -->
-        <main class="col-md-7 col-lg-8 col-xl-9 resume-main">
+        <main class="col-md-7 col-lg-8 col-xl-7 resume-main">
 
           <!--
             <section> is yet another semantic element. The first one is for professional experience.
@@ -95,10 +99,10 @@
               <li class="biography-item row mb-2">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/employers/projector.svg" alt="Company logo" width="80">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/icons/Marketing.png" alt="Company logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4 style="color:#4E011A">Marketing Manager</h4>
+                  <h4 class="mm" style="color:#4E011A"> <strong>Marketing Manager</strong></h4>
                   <h5>September&ndash;February 2023</h5>
                   <!-- Use the list below to talk about your achievements -->
                   <ul class="biography-details list-unstyled">
@@ -112,10 +116,11 @@
               <!-- 2nd item in professional experience -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
+					<img class="coach-logo mw-100 d-block mx-auto" alt="Coach logo" src="images/icons/Coach.png">
                 <!-- We're using a grid inside a grid so we can align logos and text -->
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4 style="color:#4E011A">Swimming coach</h4>
+                  <h4 style="color:#4E011A"><strong>Swimming coach</strong></h4>
                   <h5>2019-2021</h5>
                   <!-- This entry doesn't have a list of achievements, but you can copy-paste the one from above -->
                 </div>
@@ -123,7 +128,7 @@
 
             </ul>
           </section>
-			<hr>
+			<hr class="line" color: #4E011A;>
 
           <!-- We're done with jobs, let's move on to schools -->
 
@@ -134,10 +139,10 @@
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/logo-buas.svg" alt="School logo" width="120">
+                  <img class="biography-logo mw-100 d-block mx-auto" src="images/icons/Logo BUas_RGB 2.png" alt="School logo" width="120">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>BA in Creative Business, Breda University of Applied Sciences</h4>
+                  <h4><strong>BA in Creative Business, Breda University of Applied Sciences</strong></h4>
                   <h5>2021&nbsp;&ndash;&nbsp;now</h5>
                   <!-- Use the list below to talk about minors, exchanges, extra-curricular activities. -->
                   <ul class="biography-details list-unstyled">
@@ -150,10 +155,10 @@
               <!-- 2nd item in education -->
               <li class="biography-item row mb-2">
                 <div class="logo-container col-3 col-sm-2 col-md-3 col-lg-2">
-                  <img class="biography-logo mw-100 d-block mx-auto" src="images/schools/school.svg" alt="School logo" width="80">
+                  <img class="school-logo mw-100 d-block mx-auto" src="images/icons/School.png" alt="School logo" width="80">
                 </div>
                 <div class="biography-contents col-9 col-sm-10 col-md-9 col-lg-10">
-                  <h4>Language High School Diploma</h4>
+                  <h4><strong>Language High School Diploma</strong></h4>
                   <h5>2021</h5>
                   <ul class="biography-details list-unstyled">
                     <li>German language specialization</li>
@@ -172,7 +177,7 @@
           We now move on to the column with contact details, languages and other skills
           <aside> is also a semantic element.
         -->
-        <aside class="col-md-5 col-lg-4 col-xl-3 resume-aside">
+        <aside class="col-md-5 col-lg-4 col-xl-5 resume-aside">
 
           <!-- The first block will be contact details -->
           <section class="my-3 aside-section">
@@ -197,9 +202,9 @@
                 </a>
               </li>
               <li class="contact-item">
-                <a class="d-flex align-items-center" href="https://github.com/" target="_blank">
-                  <img class="contact-icon" src="images/icons/github.svg" alt="LinkedIn">
-                  GitHub Profile
+                <a class="d-flex align-items-center" href="images/Resume.png" target="_blank">
+                  <img class="contact-icon" src="images/icons/github.svg" alt="Resume">
+                  Resume
                 </a>
               </li>
               <li class="contact-item">
